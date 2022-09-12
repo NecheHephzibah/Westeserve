@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html, 
+body{
+    font-size: small;
+    font-family: poppins;
+    background-image: url(/images/background-1156439_1280.png);
+    background-color: rgba(141, 171, 212, 0.4);
+    background-blend-mode: lighten;
+}
+
+section #home{
+    display: block;
+    padding-bottom: 10rem;
+    width: 100%;
+    height: 100%;
+}
+
+section .left{
+    float: right;
+    margin: 1rem;
+    padding: 20px;
+    width: 10%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}   
+
+section .right{
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+    padding: 20px 20px 20px 15px;
+    width: 20%;
+    height: 20%;
+    text-align: left;
+    font-family: philosopher;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#serve{
+    color: lightskyblue;
+}
+
+#sect #menu{
+    margin: 30px 30px 30px 4px;
+    padding: 10px 10px 10px 0;
+    width: 9%;
+}
+
+#sect #menu .menuLeft{
+    display: block;
+}
+
+#sect #menu .menuLeft ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sect #menu .menuLeft ul li{
+    display: block;
+    font-weight:bold;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    text-align:left;
+    background-color: white;
+    color: black;
+}
+
+#sect #menu .menuLeft ul li a{
+    font-family: poppins;
+}
+
+#sect #menu .menuLeft ul li:hover{
+    background: grey;
+    transition: .5s;
+    color: white;
+    border: 1px solid white;
+    transition: all .5s;
+}
+
+#foot .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(36, 35, 35);
+    font-family: 'Trebuchet MS';
+}
+
+#foot .footer li{
+    color: rgb(165, 159, 159);
+    list-style-type: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 40px 0 0px;
+}
+
+ #foot .footer li:hover #copy{
+    cursor: text;
+    text-decoration: none;
+
+}
+
+#foot .footer li:hover{
+    text-decoration: underline;
+    color: white;
+    transition: all .5s;
+  
+}
+
+.footer-content-right{
+    position: relative;
+    padding-right: 40px;
+    margin-top: 275px;
+    z-index: 1;
+    float: right;
+}
+
+.icon-style{
+    height: 23px;
+    margin-left: 20px;
+    margin-top: 13px;
+    background-color:  rgb(165, 159, 159);
+}
+
+.icon-style:hover{
+    background-color:  rgb(169, 213, 239);
+    padding: 5px; 
+}
+
+
+
+
+    
